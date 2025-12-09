@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="bg_bgm.mp3" type="audio/mp3">
+    </audio>
+    <button id="music-btn" class="music-btn" title="Toggle Music">
+        <svg viewBox="0 0 24 24" id="icon-speaker">
+            <path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73 4.27 3zM12 4L9.91 6.09 12 8.18V4z"/>
+        </svg>
+    </button>
+    <canvas id="network-canvas"></canvas>
+    <div id="vhs-canvas"></div>
+    <div id="dim-layer"></div>
+    <div class="student-info-container">
+        <p class="student-info-text peel-effect">2022810048 이상헌</p>
+    </div>
+    <div id="loading">LOADING...</div>
+    <div class="scroll-indicator">SCROLL DOWN<br>▼</div>
+    <div class="content-wrapper">
+        <div class="container">
+            <header class="pt-5 pb-5 mt-5">
+                <div class="reveal">
+                    <h1 class="main-title scramble-target">Portfolio<br>Collection</h1>
+                </div>
+                <div class="row border-top border-dark pt-4 mt-4 reveal">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <div class="role scramble-target">Frontend Developer &<br>Interactive Web Creator</div>
+                        <div class="exp-years">Level <span class="red-badge">Lv.1</span></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="d-flex flex-column flex-md-row justify-content-md-end gap-4 text-md-end">
+                            <div>
+                                <span class="contact-label">Github</span>
+                                <a href="https://github.com/edutopia-seoul" target="_blank" class="contact-value">github.com/edutopia-seoul</a>
+                            </div>
+                            <div>
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:lsh030417@gmail.com" class="contact-value">lsh030417@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <section class="mb-5 pb-5">
+                <div id="project-container"></div>
+            </section>
+            <section class="mb-5 pb-5">
+                <div class="row timeline-row reveal align-items-baseline">
+                    <div class="col-md-3 year-col scramble-target mb-2 mb-md-0">INFO</div>
+                    <div class="col-md-9 content-col">
+                        <h3 class="project-title scramble-target">12. Tech Stack</h3>
+                        <div class="mt-4">
+                            <div class="row mb-3">
+                                <div class="col-md-3 text-muted">Main</div>
+                                <div class="col-md-9">
+                                    <div class="scramble-target">HTML5 / CSS3 / JavaScript (ES6+)</div>
+                                    <div class="scramble-target">React.js / Next.js Framework</div>
+                                    <div class="scramble-target">Three.js / WebGL Interaction</div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 text-muted">Tools</div>
+                                <div class="col-md-9">
+                                    <div class="scramble-target">Git / GitHub / Netlify</div>
+                                    <div class="scramble-target">Figma / Adobe Photoshop</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="border-top border-dark pt-4 pb-5 text-muted small d-flex justify-content-between align-items-center">
+                <div class="scramble-target fw-bold text-white">MY WEB PORTFOLIO</div>
+                <div>© 2025 All Rights Reserved.</div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

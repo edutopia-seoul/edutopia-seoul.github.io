@@ -1,0 +1,90 @@
+[
+  {
+    "number": "01",
+    "title": "Where is my Location",
+    "link": "https://playlist9.netlify.app/",
+    "date": "2025-09",
+    "description": "Instantly checks your current location using Geolocation API.",
+    "tags": ["geolocation", "javascript", "frontend", "API", "webapp"]
+  },
+  {
+    "number": "02",
+    "title": "TweetShirt",
+    "link": "https://tweetshirt7-hk.netlify.app/",
+    "date": "2025-10",
+    "description": "Turns your tweet into a fun T-shirt-style design.",
+    "tags": ["design", "twitter", "creative", "javascript", "fun"]
+  },
+  {
+    "number": "03",
+    "title": "Custom Note",
+    "link": "https://notetoself-hknu.netlify.app/",
+    "date": "2025-10",
+    "description": "A simple note app that saves instantly in your browser.",
+    "tags": ["note", "localstorage", "productivity", "vanillajs", "webapp"]
+  },
+  {
+    "number": "04",
+    "title": "JavaScript Quiz",
+    "link": "https://javascript-quiz-hknu.netlify.app/",
+    "date": "2025-10",
+    "description": "Test your JavaScript skills with quick quizzes.",
+    "tags": ["quiz", "javascript", "frontend", "learning", "webapp"]
+  },
+  {
+    "number": "05",
+    "title": "Infinite Cat Slideshow",
+    "link": "https://hknu-cat.netlify.app/",
+    "date": "2025-11",
+    "description": "Endless slideshow of cute cat photos.",
+    "tags": ["cats", "slideshow", "fun", "frontend", "UX"]
+  },
+  {
+    "number": "06",
+    "title": "How Many People in Subway",
+    "link": "https://hknu-subway.netlify.app/",
+    "date": "2025-11",
+    "description": "Visualizes real-time subway crowd levels.",
+    "tags": ["subway", "data", "visualization", "API", "webapp"]
+  },
+  {
+    "number": "07",
+    "title": "Find Weather",
+    "link": "https://weather-app-hknu.netlify.app/",
+    "date": "2025-11",
+    "description": "Shows real-time weather data for any region.",
+    "tags": ["weather", "API", "frontend", "UI", "webapp"]
+  },
+  {
+    "number": "08",
+    "title": "Find Seoul Event",
+    "link": "https://seoul-cultural-event-noti-hknu.netlify.app/",
+    "date": "2025-11,12",
+    "description": "Quickly browse cultural events happening in Seoul.",
+    "tags": ["seoul", "event", "culture", "API", "frontend"]
+  },
+  {
+    "number": "09",
+    "title": "When Did Seoul Public Libraries Open?",
+    "link": "https://seoul-library-search-mashup-hknu-ls.netlify.app/",
+    "date": "2025-12",
+    "description": "Check library opening dates on an interactive map.",
+    "tags": ["library", "map", "mashup", "data", "openAPI"]
+  },
+  {
+    "number": "10",
+    "title": "Real-time Sky News",
+    "link": "https://air-pollution5-hknu.netlify.app/",
+    "date": "2025-12",
+    "description": "Provides live air quality and fine-dust data.",
+    "tags": ["environment", "airquality", "pm10", "API", "webapp"]
+  },
+  {
+    "number": "11",
+    "title": "Soundboard",
+    "link": "https://soundboard-hknu.netlify.app/",
+    "date": "2025-12",
+    "description": "Play fun sound effects with a single click.",
+    "tags": ["sound", "audio", "javascript", "interaction", "fun"]
+  }
+]
