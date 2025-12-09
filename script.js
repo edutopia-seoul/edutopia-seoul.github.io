@@ -437,3 +437,26 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 });
 animate();
+
+
+const scrollBtn = document.getElementById('scroll-btn');
+
+scrollBtn.addEventListener('click', () => {
+    if (audio.paused) {
+        audio.play().then(() => {
+            updateIcon(true);
+        }).catch(err => {
+            console.log("Audio play failed:", err);
+        });
+    } else {
+        audio.muted = false;
+        updateIcon(true);
+    }
+
+    const scrollAmount = window.innerHeight * 0.4;
+    
+    window.scrollTo({
+        top: scrollAmount,
+        behavior: 'smooth'
+    });
+});
