@@ -171,7 +171,8 @@ body.scrolled .student-info-container {
     letter-spacing: 2px;
     animation: bounce 2s infinite;
     text-align: center;
-    z-index: 1;
+    z-index: 2000;
+    cursor: pointer;
 }
 
 @keyframes bounce {
@@ -354,3 +355,4 @@ body.scrolled .student-info-container {
         height: 40px;
     }
 }
+
